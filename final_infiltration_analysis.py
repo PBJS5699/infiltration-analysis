@@ -552,3 +552,5 @@ if __name__ == "__main__":
     all_distances_df_with_stats.to_excel(
         os.path.join(folder_selected, "all_distances.xlsx"), index=True
     )
+
+    root.mainloop()
